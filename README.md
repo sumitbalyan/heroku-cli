@@ -32,3 +32,7 @@ $ git push heroku master
 ### For existing repositories, simply add the heroku remote
 
 $ heroku git:remote -a shop-kart
+
+### Deploying code
+
+$ git push heroku master

@@ -27,8 +27,6 @@ $ git commit -am "make it better"
 
 $ git push heroku master
 
-### Existing Git repository
-
 ### For existing repositories, simply add the heroku remote
 
 $ heroku git:remote -a shop-kart
@@ -36,3 +34,7 @@ $ heroku git:remote -a shop-kart
 ### Deploying code
 
 $ git push heroku master
+
+### For logs
+
+heroku logs --tail
